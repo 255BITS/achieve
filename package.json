@@ -1,0 +1,26 @@
+{
+  "name": "achieve",
+  "version": "0.1.0",
+  "author": "Martyn Garcia <martyn.garcia@gmail.com>",
+  "description": "An agnostic achievement system",
+  "main": "achieve",
+  "repository": {
+    "type":"git",
+    "url":"git://github.com/255BITS/achieve.git"
+  },
+  "keywords" : [
+    "achievement",
+    "coffeescript",
+    "badges"
+  ],
+  "dependencies" : {
+  },
+  "devDependencies":{
+    "mocha" : "latest",
+    "should" : "latest"
+  },
+  "license":"MIT",
+  "engine": {
+    "node": ">=0.6"
+  }
+}

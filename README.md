@@ -12,7 +12,7 @@ A framework/persistence agnostic API for defining user achievements.
 * As the user does certain actions, add and remove `flags`
 
 #Installing
-For this beta, install by cloning this git repo.  Please file bugs and provide feedback!
+For this beta, install by cloning this git repo and running [giles](/255BITS/giles).  Please file bugs and provide feedback!
 ```bash
 git clone git://github.com/255BITS/achieve.git
 cd achieve

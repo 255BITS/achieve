@@ -1,6 +1,5 @@
 # Achieve
-This API is a framework/persistence agnostic API for defining user-based
-Achievements.
+A framework/persistence agnostic API for defining user achievements.
 
 #High Level Overview:
 * Achievements are defined as a list of required flags.

@@ -1,4 +1,4 @@
-# Achieve
+#Achieve
 A framework/persistence agnostic API for defining user achievements.
 
 #High Level Overview:
@@ -15,8 +15,10 @@ A framework/persistence agnostic API for defining user achievements.
 ##achievements
 ###define(required, achievement)
 This creates a new achievement definition.  This will not give a user an achievement.
+
 `required` is a list of flags that the achievement requires to activate
-`achievement` is the achievement object that is passed to the listening callback
+
+`achievement` is the object that is passed to the listening callback
 
 ####Example
 ```coffeescript
@@ -30,8 +32,10 @@ achievements.define(['validPicture', 'validName'], {
 
 ###flag(bit)
 `bit` is a symbol designating the name of the flag.
-This will toggle a flag as ON.  If the correct flags are set to ON, a `received` event is triggered.  Events are 
-only triggered once, when all required flags are set to ON.
+
+This will toggle a flag as ON.  If the correct flags are set to ON, a `received` event is triggered. 
+
+Calling `flag` on an existing ON `bit` will do nothing.
 
 ####Example
 ```coffeescript
@@ -41,8 +45,11 @@ achievements.flag('validName')
 
 ###removeFlag(bit)
 `bit` is a symbol designating the name of the flag.
+
 This will toggle a flag as OFF.  If an active achievements required flag is set to OFF, a `removed` event is triggered.  Events
 are only triggered once, when any of the required flags are set to OFF.
+
+Calling `removeFlag` on an existing OFF `bit` will do nothing.
 
 ####Example
 ```coffeescript

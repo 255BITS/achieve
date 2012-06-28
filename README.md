@@ -76,4 +76,4 @@ achievements.removed (achievement) ->
 v0.1.0 Initial documentation and unit-tested achievement system.
 
 #License
-Giles is available under the MIT license.  We hope you find it useful.  Please let us at 255 BITS know if you use it for something cool.
+Achieve is available under the MIT license.  We hope you find it useful.  Please let us at 255 BITS know if you use it for something cool.

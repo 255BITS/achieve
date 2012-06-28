@@ -1,15 +1,24 @@
 #Achieve
 A framework/persistence agnostic API for defining user achievements.
 
-#High Level Overview:
+##High Level Overview:
 * Achievements are defined as a list of required flags.
 * Flags are set in the browser when a user reaches certain checkpoints.
 * User-defined events are triggered when achievements get all the required flags.
 
-#Typical usage
+##Typical usage
 * `define` your list of achievements
 * Add a listener for the `recieved` and `removed` events
 * As the user does certain actions, add and remove `flags`
+
+#Installing
+For this beta, install by cloning this git repo.  Please file bugs and provide feedback!
+```bash
+git clone git://github.com/255BITS/achieve.git
+cd achieve
+giles
+cp achieve.js PROJECT_DIRECTORY/public
+```
 
 #API Documentation
 ##achievements
